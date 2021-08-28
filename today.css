@@ -1,3 +1,7 @@
+:root{
+    --pale-yellow: #FFECCF
+}
+
 .task-header{
     width: 100%;
     text-align:center;
@@ -12,8 +16,34 @@
     display: flex;
     flex-wrap: wrap;
     margin: 25px auto;
+    width: 60vw;
 }
 
 .task-prompt{
+    width: 100%;
     text-align: center;
+    font-size: 18px;
+}
+
+.file-upload-container{
+    background-color: var(--pale-yellow);
+    width: 100%;
+    margin: 25px auto;
+    text-align: center;
+    padding: 50px 0px 25px 0px;
+}
+
+.upload-icon{
+    opacity: 50%;
+}
+
+label{
+    font-size: 18px;
+}
+
+input.upload-file{
+    margin: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align-last: center;
 }
