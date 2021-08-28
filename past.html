@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="past.css">
+    <script src="past.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="menu-bar">
+        <header>
+            <div class="menu-container">
+                <nav>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="set-goal.html">Set your Goal</a></li>
+                        <li><a href="today.html">Today's Task</a></li>
+                        <li><a href="past.html">Past Tasks</a></li>
+                        <li><button class="button">Login</button></li>
+                        <li><button class="button">Sign Up</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <h1 class="page-header">Past Tasks</h1>
+        <div class="past-tasks">
+            <div class="task">
+                <button class="task-button" onclick="dropdownToggle(this)">[date]: [task]</button><div class="toggle-symbol">▼</div>
+                <div class="task-file">
+                    <p>[file]</p>
+                </div>
+            </div>
+            <div class="task">
+                <button class="task-button" onclick="dropdownToggle(this)">[date]: [task]</button><div class="toggle-symbol">▼</div>
+                <div class="task-file">
+                    <p>[file]</p>
+                </div>
+            </div>
+            
+        </div>  
+</body>
+</html>

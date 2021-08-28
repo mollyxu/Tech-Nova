@@ -1,0 +1,19 @@
+.task-header{
+    width: 100%;
+    text-align:center;
+    margin: 200px auto 0 auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.task-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px auto;
+}
+
+.task-prompt{
+    text-align: center;
+}
