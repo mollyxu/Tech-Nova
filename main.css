@@ -1,20 +1,28 @@
 :root{
-    --light-yellow: #FFD99F;
+    --light-yellow: #FEF1BC;
+    --light-blue: #CDEAE9;
 }
 
 body{
-    font-family:sans-serif;
+    font-family:"Nunito", sans-serif;
+    background-color: var(--light-blue);
 }
 .menu-bar{
-    background-color: white;
+    background-color: #CDEAE9;
     width: 100%;
-    height: 150px;
+    height: 125px;
     position: fixed;
     left: 0px;
     top: 0px;
     z-index: 1;
 }
 
+.logo{
+    position: absolute;
+    height: 100px;
+    left: 45px;
+    top: 2px;
+}
 
 .menu-container{
     position: absolute;
@@ -31,8 +39,8 @@ header::after {
 
 
 nav {
-    float:left;
-
+    float:right;
+    margin-right: 50px;
 }
 
 nav ul {
@@ -63,7 +71,9 @@ a:hover {
 button{
     background-color: var(--light-yellow);
     border: none;
-    border-radius: 10px;;
+    border-radius: 10px;
+    font-family: "Nunito", sans-serif;
+    
 }
 
 .button{
@@ -95,8 +105,12 @@ button{
 
 .right{
     float: right;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-right: 125px;;
+}
+
+.graphic{
+    width: 600px;
 }
 
 .page-header{
@@ -109,11 +123,3 @@ button{
     line-height: 42px;
 }
 
-.about-us-text{
-    width: 55vw;
-    margin: 150px auto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 30px;
-}
