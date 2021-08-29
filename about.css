@@ -1,11 +1,3 @@
-body{
-    background-image: url("background-autumn-orange-yellow-green-pale-grunge-gradient.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 .about-us-text{
     position: absolute;
     width: 55vw;
