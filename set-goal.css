@@ -1,5 +1,5 @@
 :root{
-    --pale-yellow: #FFECCF
+    --pale-yellow: #FFECCF;
 }
 
 .goal-selector{
@@ -29,7 +29,7 @@
     margin: 15px;
     padding: 25px;
     text-align: center;
-    background-color: var(--pale-yellow);
+    background-color: #FFECCF;
     width: 175px;
 }
 

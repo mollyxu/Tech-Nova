@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="set-goal.css">
+    <script src="set-goal.js"></script>
     <title>Set your Goal</title>
 </head>
 <body>
@@ -28,14 +29,14 @@
     <div class="goal-selector">
         <p class="select-goal-prompt">Select a goal to work on:</p>
         <div class="goals">
-            <button class="select-goal" id="empowerment">Female Empowerment</button>
-            <button class="select-goal" id="mental-health">Mental Health</button>
-            <button class="select-goal" id="self-esteem">Self-Esteem</button>
-            <button class="select-goal" id="physical-health">Physical Health</button>
-            <button class="select-goal" id="interpersonal">Interpersonal Skills</button>
-            <button class="select-goal" id="self-care">Self-Care</button>
+            <button class="select-goal" id="empowerment" style="background-color: #FFECCF" onclick="toggleColour(this)">Female Empowerment</button>
+            <button class="select-goal" id="mental-health" style="background-color: #FFECCF" onclick="toggleColour(this)">Mental Health</button>
+            <button class="select-goal" id="self-esteem" style="background-color: #FFECCF" onclick="toggleColour(this)">Self-Esteem</button>
+            <button class="select-goal" id="physical-health" style="background-color: #FFECCF" onclick="toggleColour(this)">Physical Health</button>
+            <button class="select-goal" id="interpersonal" style="background-color: #FFECCF" onclick="toggleColour(this)">Interpersonal Skills</button>
+            <button class="select-goal" id="self-care" style="background-color: #FFECCF" onclick="toggleColour(this)">Self-Care</button>
         </div>
-        <button class="to-task-button">Click here to start working towards your goals!</button>
+        <a href="today.html"><button class="to-task-button">Click here to start working towards your goals!</button></a>
     </div>
 </body>
 </html>
