@@ -12,11 +12,17 @@
 
 .circles-1{
     position: absolute;
-    top: 125px;
+    top: 150px;
     left: 70vw;
 }
 .circles-2{
     position: absolute;
-    top: 60vh;
+    top: 50vh;
+    left: 3vw;
+}
+
+.circles-3{
+    position: absolute;
+    top: 105px;
     left: 10vw;
 }
